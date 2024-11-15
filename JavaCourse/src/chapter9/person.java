@@ -7,11 +7,11 @@ public class person {
 	private String gender;
 	
 	public person() {
-		System.out.println("In person default construct.");
+		//System.out.println("In person default construct.");
 	}
 	
 	public person(String name) {
-		System.out.println("In person 2nd default construct. name is set");
+		//System.out.println("In person 2nd default construct. name is set");
 	}
 	
 	public String getName() {

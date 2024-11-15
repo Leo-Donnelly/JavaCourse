@@ -7,13 +7,13 @@ public class inheritanceTester {
 		Mother mum = new Mother();
 		mum.setName("billy joel");
 		
-		System.out.println(mum.getName() + mum.getGender());
+		System.out.println(mum.getName() +" " + mum.getGender());
 		
-		Rectangle rectangle = new Rectangle();
-		rectangle.print();
+		//Rectangle rectangle = new Rectangle();
+		//rectangle.print();
 		
-		Square square = new Square();
-		square.print("square");
+		//Square square = new Square();
+		//square.print("square");
 
 	}
 	

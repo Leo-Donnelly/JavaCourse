@@ -7,6 +7,7 @@ import java.util.Scanner;
  */
 
 public class LetterSearch {
+	public static boolean letterFound = false;
 
 	public static void main(String[] args) {
 		//get text
@@ -15,7 +16,6 @@ public class LetterSearch {
 		String text = scanner.next();
 		scanner.close();
 		
-		boolean letterFound = false;
 		
 		//search text for letter A
 		for(int i=0; i<text.length(); i++) {

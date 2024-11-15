@@ -5,7 +5,7 @@ import java.util.Map;
 public class HashMaps {
 
 	public static void main(String[] args) {
-		Map<K, V> fruitCalories = new HashMap();
+		Map<String, Integer> fruitCalories = new HashMap();
 		fruitCalories.put("Apple", 95);
 		fruitCalories.put("lemon", 20);
 		fruitCalories.put("banana", 105);
@@ -21,6 +21,16 @@ public class HashMaps {
 		
 		fruitCalories.remove("orange");
 		System.out.println(fruitCalories); // banana 105 apple 95 lemon 17
+		
+		
+		for(var entry: fruitCalories.entrySet()) {
+			System.out.println(entry.getValue());
+		}
+		
+		fruitCalories.forEach(
+				(k,v)-> System.out.println("Fruit "+k+" calores "+ v)
+				);
+		
 	}
 
 }
